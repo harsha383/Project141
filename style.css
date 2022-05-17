@@ -1,0 +1,52 @@
+body{
+    background-size: cover;
+}
+.heading {
+    width: 100%;
+    text-align: center;
+}
+.heading h3 {
+    display: inline;
+    font-family: fantasy;
+    font-size: 50px;
+}
+.heading button {
+    float: right;
+    border: 1px solid white;
+    font-size: 30px;
+    font-family: fantasy;
+}
+#play, #status, #restart {
+    font-size: 22px;
+    font-family: fantasy;
+    font-weight: 100;
+}
+.modal-dialog {
+    width: 70%;
+
+}
+.modal-header {
+    background-color: darkblue;
+    color: plum;
+    font-size: 24px;
+    font-family: fantasy;
+    height: 5%;
+}
+.modal-body {
+    background-color: plum;
+    font-size: 20px;
+    font-family: fantasy;
+    text-align: left;
+    color: darkblue;
+}
+.copy_bottom_right_footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    background-color: darkgray;
+    font-size: 24px;
+    text-align: center;
+    font-family: fantasy;
+    text-shadow: 2px 2px grey;
+}
